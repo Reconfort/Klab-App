@@ -1,0 +1,9 @@
+.welcomeBg{
+    background-image: url('../../Assets/Background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.homewelcome-w{
+    width: 80%;
+}

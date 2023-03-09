@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../Navs/Navbar'
-import '../styles/HomeWelcome.css'
+import Navbar from '../../Navs/Navbar'
+import '../../styles/HomeWelcome.css'
 
 const HomeWelcome = () => {
   return (
-    <div className="w-screen h-screen welcomeBg flex justify-center items-center relative p-4">
+    <div className="w-screen h-screen welcomeBg flex justify-center items-center relative p-4 py-12">
       <Navbar />
       <div className="homewelcome-w text-slate-50 ">
         <div className="w-3/4 flex flex-col gap-4">
@@ -16,10 +16,10 @@ const HomeWelcome = () => {
             innovate in Kigali, Rwanda.
           </h1>
           <span className="flex gap-4 mt-4 flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-row">
-            <button className="border border-slate-50 px-6 py-4 rounded-3xl">
+            <button className="border border-slate-50 px-8 text-sm font-medium py-4 rounded-3xl">
               Hire talent
             </button>
-            <button className="border border-slate-900 bg-slate-900 px-6 py-4 rounded-3xl">
+            <button className="border border-slate-900 bg-slate-900 px-8 text-sm font-medium py-4 rounded-3xl">
               Became member
             </button>
           </span>

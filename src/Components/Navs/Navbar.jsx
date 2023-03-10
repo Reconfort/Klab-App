@@ -10,10 +10,10 @@ const Navbar = () => {
       <img src={Logo} alt="Klap Logo" className="w-16 ml-2" />
       <ul className="hidden justify-around text-sm font-light items-center gap-4 xl:flex lg:flex md:flex sm:hidden">
         <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Programs">Programs</Link>
-        <Link to="/Community">Community</Link>
-        <Link to="/Events">Events</Link>
+        <Link to="/about">About</Link>
+        <Link to="/programs">Programs</Link>
+        <Link to="/community">Community</Link>
+        <Link to="/events">Events</Link>
       </ul>
       <Link to="/create-account">
         <button className="bg-slate-800 px-5 text-sm font-semibold py-2 text-slate-50 rounded-2xl hidden xl:flex lg:flex md:flex sm:hidden">

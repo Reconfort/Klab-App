@@ -2,7 +2,7 @@ import React from 'react'
 import ProgramsCard from '../Card/ProgramsCard'
 import Titles from '../Titles'
 
-const Programs = () => {
+const ProgramSection = () => {
   return (
     <div className="w-screen flex flex-col gap-4 justify-center items-center py-12">
       <Titles />
@@ -15,4 +15,4 @@ const Programs = () => {
   );
 }
 
-export default Programs
+export default ProgramSection;

@@ -59,7 +59,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-1 footerW xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 text-center gap-4 px-6 py-6">
+      <div className="grid grid-cols-1 footerW xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 text-left gap-4 px-6 py-6">
         <p>Klab</p>
         <div className="flex flex-row gap-2 justify-around">
           <FaFacebook />
@@ -68,10 +68,10 @@ const Footer = () => {
           <FaInstagram />
         </div>
         <p className=" text-xs">
-          @2023 Klab Rwanda. Made with passion by{" "}
+          @2023 Klab Rwanda. Made with passion by
           <a href="http://netfort.netlify.app/" className="text-blue-500">
             Reconfort
-          </a>{" "}
+          </a>
           ❤️
         </p>
       </div>
